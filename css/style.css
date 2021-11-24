@@ -1,0 +1,214 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.logo {
+    
+    font-size: 32px;
+    color: #3d37f1;
+    margin-left: 132px; 
+}
+.ui-color {
+    font-weight: lighter;  
+    color: #4b6581;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1708px;
+    width: 100%;
+}
+.nav-ul{
+    display: flex;
+    
+    max-width: 581px;
+    width: 100%;
+}
+.navli {
+    margin-left: 50px;
+    font-weight: bold; 
+    color: #3933ee;
+}
+.burger {
+    font-size: 30px;
+    color: #ff0000;
+    display: none;
+    max-width: 50px;
+    width: 100%;
+
+}
+.sec1 {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 200px;
+     max-width: 1708px;
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+}
+.imgs {
+    max-width: 650px;
+    width: 100%;  
+}
+.sec1left {
+   max-width: 600px;
+   width: 100%;
+}
+
+.left-title {
+    font-size: 78px;
+    color: #4c4747;
+    font-family: 'Lato', sans-serif;
+    line-height: 108px;
+}
+
+
+.description {
+    font-size: 22px;
+    color: #534D4D;
+    font-weight: 400;
+    margin-top: 44px;
+    font-family: 'Lato', sans-serif;
+}
+.wave {
+    width: 200px;
+    height: 76px;
+    background: #3c36f5;
+    color: white;
+    border-radius: 38px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 83px;
+    cursor: pointer;
+}
+.sec2div2 {
+    justify-content: center;
+    margin-top: 150px;
+    display: flex;
+    max-width: 712px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.middle {
+    width: 720px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.sec2title {
+    color: #3c36f1;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sec2text {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 24px;
+    color: #5a5353;
+}
+.sec2desc {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 712px;
+    width: 100%;
+}
+.blocks {
+    max-width: 1170px;
+    width: 100%;
+    margin: 20px auto;
+}
+.block {
+   max-width: 371px;
+   width: 100%;
+    height: 451px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px
+}
+.block:nth-child(1) {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    
+    
+}
+.block:nth-child(2) {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    
+}
+.block:nth-child(3) {
+    background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+    
+}
+.block:nth-child(4) {
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    
+    
+}
+.block:nth-child(5) {
+    background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+   
+    
+}
+.block:nth-child(6) {
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    
+   
+}
+    
+.allblock {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:  auto;
+    max-width: 1170px;
+    width: 100%;
+}
+.block-text {
+    width:770px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+    color: white;
+}
+.block-h2 {
+    margin-top: 61px;
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+}
+.blcok-p {
+    margin-top: 14px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    width: 328px;
+    text-align: center;
+    margin-left: 21px; 
+}
+.read {
+    width: 131px;
+    height: 45px;
+    border: 4px solid white ;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 14px 118px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.read:hover {
+    background: white;
+    color: #4d6986;
+}
+.block-img {
+    margin-top: 88px;
+}
